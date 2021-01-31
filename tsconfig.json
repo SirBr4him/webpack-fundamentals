@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ES2015",
+    "target": "ES2015",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["chrome", "jquery"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
