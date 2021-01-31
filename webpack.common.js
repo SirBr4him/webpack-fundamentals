@@ -8,8 +8,6 @@ const isDev = process.env.NODE_ENV === 'development';
 module.exports = {
   entry: {
     index: './src/index.ts',
-    content: { import: './src/content/index.ts', dependOn: 'jquery' },
-    background: { import: './src/background/index.ts', dependOn: 'jquery' },
     jquery: 'jquery',
   },
   module: {
